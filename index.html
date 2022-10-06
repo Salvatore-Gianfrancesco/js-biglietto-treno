@@ -8,12 +8,55 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/main.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
 <body>
-    
+    <header class="bg-dark text-center text-light py-3">
+        <h1>Biglietteria</h1>
+    </header>
 
+    <main class="py-5">
+        <div class="container">
+            <div class="my-3">
+                <span class="fs-4">Età:</span>
+                <span class="fs-5 ps-2" id="site_age"></span>
+                <span class="fs-5">anni</span>
+            </div>
 
+            <div class="my-3">
+                <span class="fs-4">Chilometri:</span>
+                <span class="fs-5 ps-2" id="site_distance"></span>
+                <span class="fs-5">Km</span>
+            </div>
+
+            <div class="my-3">
+                <span class="fs-4">Sconto:</span>
+                <span class="fs-5 ps-2" id="site_discount"></span>
+                <span class="fs-5">€</span>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light py-3">
+        <div class="container">
+            <div class="row alig-content-between">
+                <div class="col">
+                    <span class="fs-4">Prezzo del biglietto:</span>
+                </div>
+
+                <div class="col text-end">
+                    <span class="fs-5 ps-2" id="site_price"></span>
+                    <span class="fs-5">€</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

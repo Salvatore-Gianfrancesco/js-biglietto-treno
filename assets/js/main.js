@@ -20,3 +20,9 @@ ticketPrice = Number(ticketPrice.toFixed(2));
 // console.log(ticketPrice);
 
 console.log(`Il biglietto costa ${ticketPrice}€`);
+
+
+document.getElementById("site_age").innerHTML = age;
+document.getElementById("site_distance").innerHTML = distance;
+document.getElementById("site_discount").innerHTML = discount.toFixed(2);
+document.getElementById("site_price").innerHTML = ticketPrice;
